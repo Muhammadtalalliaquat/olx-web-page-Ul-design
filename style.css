@@ -284,6 +284,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 92%;
+    margin: 0 auto;
+    /* margin-top: 3%; */
+    margin-bottom: 3%;
 }
 .box img{
     width: 25%;
@@ -321,7 +325,6 @@
     border: 1px solid #b3b3b3;
     width: 23%;
     height: 340px;
-
 }
 .card-container h3{
     font-size: 15px;
@@ -331,7 +334,42 @@
     padding-left: 10px;
     color: #085c5d;
 }
+.borders-bottom{
+    border: none;
+}
+.card-img{
+    height: 160px;
+}
+.heart-icon{
+    width: 7%;
+    position: relative;
+    left: 88%;
+    bottom: 48%;
+}
 
+.heart-icon-img{
+    width: 7%;
+    position: relative;
+    left: 88%;
+    bottom: 53%;
+}
+.heart-pic{
+    width: 7%;
+    position: relative;
+    left: 88%;
+    bottom: 43%;
+}
+.heart-icons{
+    width: 7%;
+    position: relative;
+    left: 88%;
+    bottom: 38%;
+}
+.speed-meter{
+    width: 5%;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
 
 @media only screen and (max-width: 600px) {
     .header{
@@ -405,7 +443,7 @@
     #sponsored-para{
         font-size: 8px;
         bottom: 58%;
-        left: 77%;    
+        left: 75%;    
     }
     
     .box a{
@@ -437,6 +475,6 @@
     #sponsored-para{
         font-size: 8px;
         bottom: 55%;
-        left: 75%;    
+        left: 73%;    
     }
 }
